@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    /*padding: 0;*/
+    margin: 0;
+}
+.red_color{
+    color: hsl(0, 100%, 67%);
+}
+.yellow_color{
+    color: hsl(39, 100%, 56%);
+}
+.green_color{
+    color: hsl(166, 100%, 37%);
+}
+.blue_color{
+    color: hsl(234, 85%, 45%);
+}
+.black_color{
+    color: hsl(224, 30%, 27%);
+}
+.muted_color{
+    color: hsl(241, 100%, 89%);
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    margin: 10rem auto ;
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 50px rgb(175, 174, 174);
+}
+.left_card{
+    background-image: linear-gradient( to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+}
+ul li{
+    list-style: none;
+}
+ul li:nth-child(2){
+    background-image: linear-gradient( to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right_card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 2.5rem;
+}
+.summary_ol li:nth-child(1){
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.summary_ol li:nth-child(2){
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.summary_ol li:nth-child(3){
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.summary_ol li:nth-child(4){
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+.Continue_btn{
+    background: hsl(224, 30%, 27%);
+    color: hsl(241, 100%, 89%);
+}
+.Continue_btn:hover{
+    background-color: hsl(234, 85%, 45%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+
+
